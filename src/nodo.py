@@ -6,7 +6,7 @@ class Nodo:
         self.direction=None
     # getters y setters de dato y dirección  
     def getDato(self):
-        return str(self.dato)
+        return self.dato
 
     def setDato(self, newValor):
         self.dato = newValor
@@ -17,4 +17,4 @@ class Nodo:
     def setDirection(self, newDirection):
         self.direction = newDirection
     def getId(self):
-        return str(self.id)       
+        return self.id       
